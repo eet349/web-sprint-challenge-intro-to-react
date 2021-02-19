@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-1. Describe component state.
+- React.js is a JavaScript library. The main thing React.js is good for is localizing re-renders to only the components that need to change. Some added effects of using the library is it becomes so much easier to programmatically render components on the page.
 
-1. Describe props.
+2. Describe component state.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+- component state is a slice of data that we want to keep track of in the component so we can render it out (or use it to help render out) the ui. The component is re-rendered anytime the state changes unless otherwise told not to do so.
+
+3. Describe props.
+
+- props are properties that get passed down to/through child components. these props are used to render or assist in rendering components. They make the components we build reuseable. Props are to components as arguments are to functions. Just as different arguments can change the output of a function props can change what a component renders but the overall setup/structure is the same.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+- You can use the 'useEffect' hook to sync side effects in a component. Side effects are actions by a component that reaches outside itself. Some examples are making a fetch request or even console.logging.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
