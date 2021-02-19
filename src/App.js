@@ -52,6 +52,7 @@ const App = () => {
 		});
 		return mappedCharacterDataArray;
 	};
+	if (!characterDataArray) return <h2>Loading...</h2>;
 
 	return (
 		<StyledApp>
